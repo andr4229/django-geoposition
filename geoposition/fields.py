@@ -7,7 +7,7 @@ from django.utils.encoding import smart_text
 
 from . import Geoposition
 from .forms import GeopositionField as GeopositionFormField
-
+import django
 
 class GeopositionField(models.Field):
     description = _("A geoposition (latitude and longitude)")
